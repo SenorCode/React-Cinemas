@@ -31,26 +31,26 @@ const mainbody = () => {
             <Grid>
                 <Grid.Column width ={16}>
                     <Background>
-                        <Headerstyled> Not just movies</Headerstyled>
+                        <Headerstyled> More than just movies</Headerstyled>
                     </Background>
                 </Grid.Column>
             </Grid>
             </Container>
             <Grid>
                 <Grid.Column width ={4}>
-                    <Colheader> VIP Membership</Colheader>
+                    <Colheader> Golden Pass</Colheader>
                     <h3>Sign up for exclusives</h3>
 
                     
                 </Grid.Column>
                 <Grid.Column width ={8}>
                     <Background>
-                        <Colheader> Earn Rewards</Colheader>
+                        <Colheader> Featured Movies</Colheader>
                     </Background>
                 </Grid.Column>
                 <Grid.Column width ={4}>
                    
-                        <Colheader> Gift Shop</Colheader>
+                        <Colheader> Stay Connected</Colheader>
                     
                 </Grid.Column>
             </Grid>
