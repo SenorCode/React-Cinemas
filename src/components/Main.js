@@ -39,9 +39,7 @@ const mainbody = () => {
             <Grid>
                 <Grid.Column width ={4}>
                     <Colheader> Golden Pass</Colheader>
-                    <h3>Sign up for exclusives</h3>
-
-                    
+                 
                 </Grid.Column>
                 <Grid.Column width ={8}>
                     <Background>
