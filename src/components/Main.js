@@ -65,7 +65,7 @@ const mainbody = () => {
                         </Socialmedia>
                     <Colheader>Sign Up For Emails</Colheader>
                         <Socialmedia>
-                            <Icon color='black' name='mail' size='big'/>
+                            <Icon color='black' name='mail' size='big'/> Learn More
                         </Socialmedia>
                         
                     
