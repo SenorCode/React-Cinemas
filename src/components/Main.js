@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Goldenpass from './GoldenPass'
 import {Grid, Container, Button, Icon, Header} from 'semantic-ui-react'
 
 
@@ -23,7 +24,7 @@ const Colheader = styled.h2`
     vertical-align:middle;
     line-height:50px;
 `
-const Socialmedia = styled.div`
+const Centercontent = styled.div`
     text-align:center;
 `
 
@@ -34,7 +35,7 @@ const mainbody = () => {
             <Grid>
                 <Grid.Column width ={16}>
                     <Background>
-                        <Headerstyled> More than just movies</Headerstyled>
+                        <Headerstyled> React Cinema</Headerstyled>
                     </Background>
                 </Grid.Column>
             </Grid>
@@ -42,19 +43,24 @@ const mainbody = () => {
             <Grid>
                 <Grid.Column width ={4}>
                     <Colheader> Golden Pass</Colheader>
+                    <Centercontent>
+                        <Goldenpass>
+
+                        </Goldenpass>
+                    </Centercontent>
 
                  
                 </Grid.Column>
                 <Grid.Column width ={8}>
                    
-                        <Colheader> Featured Movies</Colheader>
+                        <Colheader> Featured Films</Colheader>
 
                     
                 </Grid.Column>
                 <Grid.Column width ={4}>
                    
                     <Colheader> Stay Connected</Colheader>
-                        <Socialmedia>
+                        <Centercontent>
                             <Icon circular  color='blue' name='facebook'size='big' link/> 
                             
                             <Icon name='twitter' color='blue' size='big' circular link/>
@@ -62,11 +68,11 @@ const mainbody = () => {
                             <Icon name='youtube' color='red' size='big' circular link/>
                             
                             <Icon name='instagram' color='teal'  size='big' circular link />
-                        </Socialmedia>
+                        </Centercontent>
                     <Colheader>Sign Up For Emails</Colheader>
-                        <Socialmedia>
+                        <Centercontent>
                             <Icon color='black' name='mail' size='big'/> Learn More
-                        </Socialmedia>
+                        </Centercontent>
                         
                     
                 </Grid.Column>
